@@ -1,0 +1,166 @@
+@using System.Data;
+@model DataSet;
+@{
+  ViewData["Title"] = "Policy Requests";
+}
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="background-color: rgb(248, 235, 248);">
+  <div>
+    <p><a class="btn btn-color" href="/Home/Details">Back</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    @* @Html.ActionLink("New requests","SelectPolicyRequest","Admin",new {status="Requested"},null)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("Denied","SelectPolicyRequest","Admin",new {status="Denied"},null)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("Accepted","SelectPolicyRequest","Admin",new {status="Accepted"},null)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    @Html.ActionLink("All Requests","PolicyRequests","Admin")
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *@
+    <input id='myInput' class="searchitem"
+        onkeyup='searchSname()' type='text' style="float: right;" placeholder=" Search here">
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;text-align:center;">Policy Requests
+    </h2>
+    </p>
+  </div>
+  <br>
+  <table class="table-design" width=100% style="text-align: center;" id='myTable'>
+    <thead class="thead-dark">
+      <tr height=40px>
+        <th scope="col">Employee Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Policy Type</th>
+        <th scope="col">Policy Name</th>
+        <th scope="col">Applied On</th>
+        <th scope="col">Policy Amount</th>
+        <th scope="col">Policy Duration</th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody class="tbody-light">
+      
+      @{
+        if(Model.Tables[0].Rows.Count!=0)
+              {
+        foreach (DataRow row in Model.Tables[0].Rows)
+      {
+        if ((@row["Status"].Equals("Requested")))
+        {
+          <tr height=50px>
+            <td>@row["EmployeeId"]</td>
+            <td>@row["Name"]</td>
+            <td>@row["Type"]</td>
+            <td>@row["PolicyName"]</td>
+            <td>@row["PolicyDate"]</td>
+            <td>@row["PolicyAmount"]</td>
+            <td>@row["PolicyDuration"]</td>
+           
+            <td> @Html.ActionLink("Accept","PolicyAccept","Admin",new
+          {id=@row["EmployeeId"],name=@row["Name"],type=@row["Type"],policyname=@row["PolicyName"],date=@row["PolicyDate"],amount=@row["PolicyAmount"],duration=@row["PolicyDuration"]},new
+          {@class="btn btn-color"})</td>
+            
+            <td> @Html.ActionLink("Deny","PolicyDeny","Admin",new {id=@row["EmployeeId"],date=@row["PolicyDate"]},new
+          {@class="btn btn-color"})
+            </td>
+          </tr>
+        }
+      
+       else if (@row["Status"].Equals("Accepted") || @row["Status"].Equals("Claim requested"))
+        {
+          <tr height=50px>
+            <td>@row["EmployeeId"]</td>
+            <td>@row["Name"]</td>
+            <td>@row["Type"]</td>
+            <td>@row["PolicyName"]</td>
+            <td>@row["PolicyDate"]</td>
+            <td>@row["PolicyAmount"]</td>
+            <td>@row["PolicyDuration"]</td>
+            <td colspan="2">@row["Status"]</td>
+          </tr>
+        }
+      
+       else if (@row["Status"].Equals("Denied"))
+        {
+          <tr height=50px>
+            <td>@row["EmployeeId"]</td>
+            <td>@row["Name"]</td>
+            <td>@row["Type"]</td>
+            <td>@row["PolicyName"]</td>
+            <td>@row["PolicyDate"]</td>
+            <td>@row["PolicyAmount"]</td>
+            <td>@row["PolicyDuration"]</td>
+            <td colspan="2"> @row["Status"]</td>
+          </tr>
+        }
+      }}
+      else{
+        <tr><td colspan="9">No results found</td></tr>
+      }}
+    </tbody>
+  </table>
+  <style>
+    .thead-dark {
+      background-color: rgba(129, 10, 109, 0.8);
+      color: white;
+    }
+
+    .tbody-light {
+      text-align: center;
+      color: white;
+      background-color: rgba(129, 10, 109, 0.3);
+    }
+
+    tr:hover {
+      opacity: 0.5;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .btn-color {
+      color: white;
+      background-color: purple;
+    }
+
+    .searchitem {
+      border-color: purple;
+      background-color: rgb(238, 238, 233);
+      border-radius: 5px;
+      ;
+    }
+  </style>
+  <script>
+    function searchSname() {
+      var input, filter, found, table, tr, td, i, j;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+          if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            found = true;
+          }
+        }
+        if (found) {
+          tr[i].style.display = "";
+          found = false;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@model IMS.Models.Login;
+
+@{
+  ViewData["Title"] = "Update Employee";
+}
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <section class="h-100 gradient-form" style="background-color: rgb(245, 214, 242);">
+    <div class="container  h-100" style="padding-top: 110px;padding-bottom:110px;">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-4">
+          <div class="container py-3 h-100  align-items-center" style="background-color: White;">
+            <div class="text-center">
+              @* <img src="https://th.bing.com/th/id/OIP.3MsoHiIIiSGZcXH0yLSjEgAAAA?pid=ImgDet&rs=1" style="width:
+              300px;height:150px;" alt="logo"> *@
+              <h4 class="mt-0 mb-5 pb-1" style="color:rgba(129, 10, 109, 0.863) ;">Updating Employee Login Details</h4>
+            </div>
+            <form method="post">
+              <div class="form-outline mb-4">
+                <label class="form-label">User name</label>
+                <input asp-for=Username type="text" class="form-control" value="@ViewBag.user" />
+              </div>
+              <div class="form-outline mb-4">
+                <label class="form-label">Password</label>
+                <input asp-for=Password type="password" class="form-control" placeholder="Password" minlength="8"
+                  maxlength="50" />
+                @Html.ValidationMessageFor((data => data.Password),"",new{@class ="text-danger"})
+              </div>
+              <div class="bar" style="padding: 5%;">
+                <button class="btn btn-primary " style="margin-right: 30%; " type="submit"> Update </button>
+                <a class="btn btn-outline-primary" href="/Admin/EmployeeList" role="button"> Back</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

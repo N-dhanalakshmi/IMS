@@ -1,0 +1,83 @@
+@model RegistrationModel
+@{
+    ViewData["Title"] = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body style="background-color: rgb(248, 235, 248);" >
+<script>
+  var message ='@TempData["Dues2"]';
+  if(message!=''){
+  alert(message);
+  message='';}
+</script>
+<h1>Payment</h1>
+<div style="align-items: center;">
+    <form asp-action="Payment">
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Employee Id</strong>
+            </div>
+            <div class="col-4">
+                <input type="text" asp-for=EmployeeId class="form-control" value="@Model.EmployeeId"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Name</strong>
+            </div>
+            <div class="col-4">
+                <input type="text" asp-for=Name class="form-control" value="@Model.Name"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Policy Name</strong>
+            </div>
+            <div class="col-4">
+                <input type="text" asp-for=PolicyName class="form-control" value="@Model.PolicyName" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Policy Date</strong>
+            </div>
+            <div class="col-4">
+                <input type="text" asp-for=PolicyDate class="form-control" value="@Model.PolicyDate" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Amount</strong>
+            </div>
+            <div class="col-4">
+                
+                <input type="number" asp-for=PremiumAmount value="@Model.PremiumAmount" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Email</strong>
+            </div>
+            <div class="col-4">
+                
+                <input type="text" asp-for=Email value="@Model.Email" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-1 col-2">
+                <strong>Phone</strong>
+            </div>
+            <div class="col-4">
+                
+                <input type="text" asp-for=PremiumAmount value="@Model.Mobile" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-right">
+                <button type="submit" class="btn btn-primary">Proceed to Pay</button>
+                <a  href="/Home/Dues" class="btn btn-outline-primary " role="button" >Back</a>
+            </div>
+        </div>
+    </form>
+</div>
+</body>

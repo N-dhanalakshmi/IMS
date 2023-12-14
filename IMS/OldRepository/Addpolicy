@@ -1,0 +1,162 @@
+<!-- @{
+    ViewData["Title"] = "AddPolicy";
+}
+ <html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="background-color: rgb(248, 235, 248);" >
+  <script>
+  var message ='@TempData["Register"]';
+  while(message!=''){
+  alert(message)
+  message='';};
+</script>
+<div class="text-center"> 
+  
+ <p > <a  class="btn btn-color" href="/Home/InsuranceDetails" style="float:left" role="button" > Back</a> 
+ @{
+  if(@TempData["VisitTime"]!=null){<i style="float: right;">Last Visited at : @TempData["VisitTime"]</i>
+  }}
+  </p>
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;" >OUR BESTS!</h2>
+</div><br><br><br><br><br>
+<div style="padding-left: 0px;" ><a class="design" href="#Home" style="background-image:url('https://www.hdfcergo.com/images/default-source/health-lob/individual-health-insurance-plus-employer-insurance.jpg?sfvrsn=d5914b06_2');"></a>
+<a  href="#Motor" class="design" style="background-image:url('https://image.myupchar.com/16312/original/family-health-insurance1.jpg');"></a>
+<a  href="#Health" class="design" style="background-image:url('https://www.policybazaar.com/images/Health/maternity-health-insurance-plan.jpg');" ></a>
+<a class="design" style="background-image:url('https://imgk.timesnownews.com/story/Travel_2.jpg?tr=w-400,h-300,fo-auto%27,%2720');" href="#Travel"></a>
+<a class="design" style="background-image:url('https://imgk.timesnownews.com/story/Travel_2.jpg?tr=w-400,h-300,fo-auto%27,%2720');" href="#Travel"></a>
+</div>
+<style>
+.design {
+ box-shadow: 0 4px 8px 0 rgba(129, 10, 109, 0.863);
+border:solid 1px;
+background-size:210px 210px;
+background-repeat:no-repeat;
+height:50px;
+margin:35px;
+padding:80px;
+border-radius:25px;
+}
+a:hover{
+opacity:0.8;
+}
+.btn-color{
+  color: white;
+  background-color: purple;
+}
+h1,p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin:50px;
+}
+
+</style>
+<br><br><br><br><br><br>
+<div class="text">
+<h1 id="Home">How much important is Home Insurance?</h1>
+<p><img src="https://cdn.pixabay.com/photo/2021/10/07/15/23/real-estate-
+6688945__480.jpg" height="200" width="250" style="float:right;margin:20px;"> 
+Home insurance or property insurance secures the structure along with its content 
+against unwanted events like fire, theft, natural calamities (storm, cyclone, etc.) or 
+man-made activities (riots and terrorism). With the arrival of auspicious 
+occasions, it is advisable for you to invest in a home insurance policy, as securing 
+your assets is one of the best things to do during this festive time. An unfortunate 
+incident can cause irreversible damage, leading to vulnerable financial losses; 
+hence, it is wise to buy property insurance.
+The Insurance Regulatory and Development Authority of India (IRDAI) has made 
+it mandatory for every insurer to offer a standard home insurance policy known as 
+Bharat Griha Raksha from April 1, 2021. Bharat Griha Raksha provides coverage 
+against loss, damage, or destruction of the home building and its contents due to 
+unforeseen circumstances.
+Our nation is prone to natural calamities and constant fire incidences, which lead 
+to irreversible damages. For example, in 2021, cyclone yaas in Odisha and a major 
+fire incident in Kullu, Himachal Pradesh in December 2021, gutted 15 houses and 
+led to severe destruction of property. Hence, to avoid getting your years of income 
+drained out in a fraction of seconds from these kinds of incidences.<a 
+href="/Home/HealthRegister">Click here </a>to save your home for loved ones.</p>
+<h1 id="Motor">Why Motor Insurance?</h1>
+<p><img src="https://www.kindpng.com/picc/m/21-218413_auto-insurance-clip-
+art-hd-png-download.png" height="200" width="250" 
+style="float:left;margin:20px;">Motor insurance is just like any other insurance 
+policy, but unlike other insurances, it is ‘Mandatory'! And, as the name suggests, it 
+is an insurance that is related to all types of motor vehicles-motorcycles, cars, 
+jeeps, commercial vehicles etc.
+A vehicle insurance policy comes with several features that can be very beneficial 
+for the policyholde
+
+Here are some features that you should know. 
+
+Motor insurance 
+not only provides cover for the damages caused by an accident but also covers 
+from
+
+theft natural calam by, fire damage, Maridalism, manmade disasters etc.
+
+You 
+can get the benefits of a cashless claim assistance by providing enough evidence in 
+case of
+
+accidents and theft. Motor Insurance can be applied for two-wheelers, 
+four-wheelers. Not only the owners , even lessee can apply for an insurance.
+
+Motor insurance has been made mandatory by the government for your safety and 
+the safety of others. And the yearly premium you pay is just a meagre sum when 
+compared to the advantages it has to offer you in case of, god forbid, any mishap.
+Dont think Hurry up to save your vehicle and your dream.<a href="/Home/HealthRegister" > Click 
+here</a> and enjoy driving.</p>
+<br>
+<h1 id="Health">Why Do You Need a Medical Insurance Plan?</h1>
+<p><img src="https://thumbs.dreamstime.com/b/happy-family-jumping-beach-
+together-55325505.jpg" height="200" width="250" 
+style="float:right;margin:20px;">The rising health complications are linked to the 
+current lifestyle and environmental pollution. This necessitates the importance of 
+being secured with a mediclaim plan, which can shield yourself and your family 
+from financial troubles.The cost of health care has multiplied over the years. It is 
+not wise to solely depend on your savings to cover your medical needs. With the 
+best Health Insurance, you do not have to worry about medical expenses to avail 
+quality treatment.Having a periodic health check-up helps you prevent various 
+health problems. Besides providing cover for incurred medical expenses. Health 
+Insurance Policies also facilitate annual health check-up that helps keep your 
+health on track.Make sure not to miss out on Health Insurance while planning 
+your finance. Insuring yourself and your family members will make it certain that 
+you are financially backed up in times of need. Medical inflation is ever-rising, so a 
+sudden medical emergency may drain your saving.Like the hospitalisation cover, it 
+is important that the transportation expenses of the person to the hospital are 
+taken care of during health emergencies. It implies the necessity of a Medical 
+Insurance plan which covers ambulance charges. To save the life of your family 
+members and friends <a href="/Home/HealthRegister">click here</a> to apply for one insurance policy 
+without any delay.</p>
+<h1 id="Travel">"Travel the world you love, Explore more without hesitation" 
+</h1>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?
+q=tbn:ANd9GcTiVxMMwGiDu1YHaLfX-YdlCDjWY4h4Z0ds4Q&usqp=CAU" 
+height="200" width="250" style="float:left;margin:20px;">An international 
+travel insurance policy financially protects you in the case of lost passports, lost 
+checked baggage, or additional hotel expenses, among other contingencies.
+
+Before 
+starting your journey, there is an extensive list of things to be done applying for a 
+passport and visa, booking tickets, packing your luggage and everything you need 
+for a comfortable visit. Be it a budget-friendly vacation or a luxurious overseas 
+trip, travelling holds a unique significance for each of us. With such meticulous 
+planning, you would not expect things to go wrong. However, any travel 
+opportunity could expose you to some hidden risks - falling sick and getting 
+hospitalized, losing your checked-in baggage, or facing a trip delay due to severe 
+weather conditions.
+
+At Care, you can choose a customized international travel 
+insurance cover that will provide insurance coverage for various medical and 
+non-medical expenses you may incur during your foreign trip. The overseas travel 
+insurance will safeguard you against travel-related inconveniences and free you 
+and your travel companions from worries!. Travel Insurance is A  saviour in a 
+medical emergency, Mitigates the travel inconveniences, Gives your family 
+financial comfort during travel, Provides Mandatory Requirement for Trip 
+Abroad, Cover for Emergency Medical Evacuation.<a href="/Home/HealthRegister" >Click here</a> to 
+experience it.</p>
+ </div>
+ <div class="row">
+  
+  <p><a href="/Home/HealthRegister" >Apply Now!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/Home/InsuranceDetails" >Back</a></p>
+ </div>
+</body>
+</html> -->

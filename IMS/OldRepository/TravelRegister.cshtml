@@ -1,0 +1,138 @@
+@* @model Policy;
+@{
+    ViewData["Title"] = "TravelRegister";
+}
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="background-color: rgb(248, 235, 248);" >
+<div class="text-center"> 
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;" >Register Here for Travel Insurance</h2>
+</div><br>
+<section class="vh-100 gradient-custom">
+  <div class="container  h-100">
+    <div class="row justify-content-center align-items-center ">
+       <div class="col-12 col-lg-9 col-xl-7"> 
+        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div class="card-body  ">
+            <h3 class="mb-4  pb-md-0 mb-md-5" style="text-align: center;">Registration Form</h3>
+            <form method="post">
+          <input asp-for="UserName" type="text" class="form-control form-control-lg" value="@ViewBag.username7" hidden/>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input asp-for="EmployeeId" type="text" class="form-control form-control-lg"  value="@ViewBag.id4"/>
+                    <label class="form-label" >Employee Id</label>
+                  </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+
+                  <div class="form-outline">
+                    <input type="text" asp-for="Name" class="form-control form-control-lg"  value="@ViewBag.name4" required/>
+                    <label class="form-label" >Name</label>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+                    <div class="col-md-6 mb-4">
+                  <div class="form-outline ">
+                  <label class="form-label select-label">Policy for &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <select asp-for="Type" class="select form-control-lg">
+                    <option value="Self" >Self</option>
+                    <option value="Mother">Mother</option>
+                    <option value="Father">Father</option>
+                    <option value="Spouse">Spouse</option>
+                    <option value="Son">Son</option>
+                    <option value="Daughter">Daughter</option>
+                  </select>
+                    </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="form-outline">
+                    <input type="date" asp-for="DateofBirth" class="form-control form-control-lg" required/>
+                    <label class="form-label" >Date of Birth</label>
+                  </div>
+                  </div>
+                </div>
+                <div class="row">
+                         <div class="col-md-6 mb-4">
+                  <div class="form-outline ">
+                  <label class="form-label select-label">Claim Amount &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                  <select asp-for="PolicyAmount" class="select form-control-lg">
+                    <option value="2000000">20 Lakhs</option>
+                    <option value="1500000">15 Lakhs</option>
+                    <option value="1000000">10 Lakhs</option>
+                    <option value="500000">5 Lakhs</option>
+                    <option value="400000">4 Lakhs</option>
+                  </select>
+                    </div>
+                </div>
+                  <div class="col-md-6 mb-4">
+                  <div class="form-outline ">
+                    <input type="text" asp-for="PolicyName" class="form-control form-control-lg" value="Travel Insurance" readonly />
+                    <label  class="form-label">Policy Name </label>
+                  </div>
+                </div>
+           
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                  <div class="form-outline ">   
+                <label class="form-label select-label" >Policy Duration &nbsp;&nbsp;&nbsp;&nbsp; </label>  
+                 <select asp-for="PolicyDuration"  class="select form-control-lg">
+                  <option value="30">30 Years</option>
+                  <option value="25">25 Years</option>
+                  <option value="20">20 Years</option>
+                  <option value="15">15 Years</option>
+                  <option value="10">10 Years</option>
+                 </select>
+                  </div>
+                </div>
+                @* <div class="col-md-6 mb-4">
+                  <div class="form-outline ">
+                    <input type="datetime-local" asp-for="PolicyDate" class="form-control form-control-lg" placeholder="Today Date" required/>
+                    <label  class="form-label">Policy Date </label>
+                  </div>
+                </div> *@
+                @* </div>
+            <div class="row">
+        
+             <p>  <button  class="btn btn-primary " style="margin-right: 50%;margin-left:30px;padding:5px 20px;" type="submit"> Submit </button>
+            
+                <a  class="btn btn-outline-primary"  href="/Home/AddPolicy" role="button"> Back</a></p> 
+             
+             </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.gradient-custom {
+/* fallback for old browsers */
+background: rgb(248, 235, 248);
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: rgb(248, 235, 248);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background:  rgb(248, 235, 248);
+}
+
+@* .card-registration  *@
+@* .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 10px;
+}
+</style>
+</body> *@ 

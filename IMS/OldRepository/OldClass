@@ -1,0 +1,521 @@
+// public List<PdfModel> generatePdf1()
+// {
+//   List<PdfModel> pdfformat= new List<PdfModel>();
+//           List<LoginDetails> loginDetails =new List<LoginDetails>();
+//         LoginDetails login=new LoginDetails();
+//         SqlConnection connection = new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;");
+//         using(connection){
+//         connection.Open();
+//         SqlCommand selectcommand=new SqlCommand("select*from LoginData",connection);
+//         SqlDataReader sqlDataReader=selectcommand.ExecuteReader();
+//         while(sqlDataReader.Read())
+//         {
+//          login.EmployeeId=Convert.ToString(sqlDataReader["EmployeeId"]);
+//          login.Name=Convert.ToString(sqlDataReader["Name"]);
+//          login.Username=Convert.ToString(sqlDataReader["UserName"]);
+//          login.Password=Convert.ToString(sqlDataReader["Password"]);
+//          loginDetails.Add(login);
+//         }}
+//             IEnumerable<LoginDetails> loginlist = loginDetails;
+//             var document = new PdfDocument();
+//             string htmlcontent = "<div style='width:100%; text-align:center;font-family: 'Times New Roman', Times, serif;'>";
+//             htmlcontent += "<h2> Insurance Management System</h2>";
+//             htmlcontent += "<h2>"+DateTime.Now+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Employee List </h2>";
+//             htmlcontent += "<h2> Total Count : " +loginDetails.Count()+ "</h2>";
+//             htmlcontent += "<table style ='width:100%; border: 1px solid #000'>";
+//             htmlcontent += "<thead style='font-weight:bold;'>";
+//             htmlcontent += "<tr >";
+//             htmlcontent += "<th style='height:30px;' ><ins> <b>Employee Id</b></ins></th>";
+//             htmlcontent += "<th style='height:30px;' ><ins> <b>Name</b></ins></th>";
+//             htmlcontent += "<th style='height:30px;' ><ins><b>User Name</b> </ins></th>";
+//             htmlcontent += "<th style='height:30px;' ><ins> <b>Password</b></ins></th>";
+//             htmlcontent += "</tr >";
+//             htmlcontent += "</thead >";
+//             htmlcontent += "<hr>";
+//                     htmlcontent += "<tbody >";
+//                    loginDetails.ForEach(item=>
+//                     {  
+//                     htmlcontent += "<tr>";
+//                     htmlcontent += "<td style='height:20px;'>" + item.EmployeeId + "</td>";
+//                     htmlcontent += "<td style='height:20px;'>" + item.Name + "</td>";
+//                     htmlcontent += "<td style='height:20px;'>" + item.Username + "</td>";
+//                     htmlcontent += "<td style='height:20px;'>" + item.Password + "</td>";
+//                     htmlcontent += "</tr>";
+//                     });
+//             htmlcontent += "</tbody>";
+//             htmlcontent += "</table>";
+//             htmlcontent += "<h2>Thank You</h2>";
+//             htmlcontent += "</div>";
+
+//             PdfGenerator.AddPdfPages(document, htmlcontent, PageSize.A4);
+
+//         byte[]? response = null;
+//         using(MemoryStream ms = new MemoryStream())
+//         {
+//             document.Save(ms);
+//             response = ms.ToArray();    
+//         }
+//         DateTime date= DateTime.Now;
+//         string? dateonly = date.ToString("d-M-yyyy");
+//         string Filename = "EmployeeList_" + dateonly + ".pdf";
+//         PdfModel pdfModel=new PdfModel();
+//         pdfModel.responsebyte=response;
+//         pdfModel.Pdfformat="application/pdf";
+//         pdfModel.filename=Filename;
+//         pdfformat.Add(pdfModel);
+//   return pdfformat;
+// }
+
+
+// public void importExcel(IFormFile file)
+// {
+//   List<LoginDetails > list = new List<LoginDetails>();
+//     using (var stream = new MemoryStream())
+//         {
+//           if(file!=null)
+//         {file.CopyTo(stream);
+//             using (var package = new ExcelPackage(stream))
+//               {
+//                   ExcelWorksheet worksheet = package.Workbook.Worksheets[0];
+//                   var rowcount = worksheet.Dimension.Rows;
+//                   for (int row = 2; row <= rowcount; row++)
+//                     {
+//                         list.Add(new LoginDetails
+//                         {
+//                             EmployeeId = worksheet.Cells[row, 1].Value.ToString().Trim(),
+//                             Name = worksheet.Cells[row, 2].Value.ToString().Trim(),
+//                             Username = worksheet.Cells[row, 3].Value.ToString().Trim(),
+//                             Password = worksheet.Cells[row, 4].Value.ToString().Trim()
+//                         });
+//                     }
+//                }
+//         }
+//         }       
+//            list.ForEach(item =>
+//            {
+//             Console.WriteLine(item.EmployeeId);
+//              using (SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;")){
+//             connection.Open();
+//           SqlCommand command3=new SqlCommand($"insert into LoginData values('{item.EmployeeId}','{item.Name}','{item.Username}','{item.Password}')",connection);
+//           command3.ExecuteNonQuery();
+//           SqlCommand command4=new SqlCommand($"insert into ProfileDetails values('{item.Name}','Nil',0,'Nil','Nil','{item.Username}','https://i.pinimg.com/originals/df/5f/5b/df5f5b1b174a2b4b6026cc6c8f9395c1.jpg','{item.EmployeeId}')",connection);
+//           command4.ExecuteNonQuery();}
+//            }
+//            ) ;
+        
+//   }
+
+
+    // public IActionResult TravelRegister()
+    // { 
+    //     if((HttpContext.Session.GetString("User2"))!=null)
+    //     {
+    //     ViewBag.username7=Convert.ToString(HttpContext.Session.GetString("User2"));
+    //    using(SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;"))
+    //    {
+    //     connection.Open();
+    //     SqlCommand selectcommand=new SqlCommand($"select EmployeeId, Name from ProfileDetails where UserName='{ViewBag.username7}'",connection);
+    //     SqlDataReader sdr=selectcommand.ExecuteReader();
+    //     while(sdr.Read()){
+    //         ViewBag.name4=Convert.ToString(sdr["Name"]);
+    //         ViewBag.id4=Convert.ToString(sdr["EmployeeId"]);
+    //     }
+    //     sdr.Close();
+    //    }
+    //    return View();}
+    //    else return Redirect("Login");
+    // }
+    // [HttpPost]
+    // public IActionResult TravelRegister(Policy policy3)
+    // {
+    //   _context.Policy.Add(policy3);
+    //   _context.SaveChanges();
+    //    Details details=new Details();
+    //    details.requestPolicyForAll(policy3);
+    //    TempData["Register"]="Policy request sent Successfully, You can see the approved policies in Policy page.";
+    //    TempData["Login"]="";
+    //    return Redirect("AddPolicy");
+    // }
+
+    // public IActionResult HomeRegister()
+    // {  
+    //     if((HttpContext.Session.GetString("User2"))!=null)
+    //     {
+    //      ViewBag.username4=Convert.ToString(HttpContext.Session.GetString("User2"));
+    //    using(SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;"))
+    //    {
+    //     connection.Open();
+    //     SqlCommand selectcommand=new SqlCommand($"select EmployeeId, Name from ProfileDetails where UserName='{ViewBag.username4}'",connection);
+    //     SqlDataReader sdr=selectcommand.ExecuteReader();
+    //     while(sdr.Read()){
+    //         ViewBag.name1=Convert.ToString(sdr["Name"]);
+    //         ViewBag.id1=Convert.ToString(sdr["EmployeeId"]);
+    //     }
+    //     sdr.Close();
+    //    }
+    //    return View();}
+    //    else return Redirect("Login");
+    // }
+    // [HttpPost]
+    // public IActionResult HomeRegister(Policy policy)
+    // {  
+    //   _context.Policy.Add(policy);
+    //   _context.SaveChanges();
+    //   Details details=new Details();
+    //   details.requestPolicyForAll(policy);
+    //   TempData["Register"]="Policy request sent Successfully,You can see the approved policies in Policy page.";
+    //   TempData["Login"]="";
+    //    return Redirect("AddPolicy");
+    // }
+
+    // public IActionResult MotorRegister()
+    // {    
+    //     if((HttpContext.Session.GetString("User2"))!=null)
+    //     {
+    //     ViewBag.username5=Convert.ToString(HttpContext.Session.GetString("User2"));
+    //    using(SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;"))
+    //    {  
+    //     connection.Open();
+    //     SqlCommand selectcommand=new SqlCommand($"select EmployeeId, Name from ProfileDetails where UserName='{ViewBag.username5}'",connection);
+    //     SqlDataReader sdr=selectcommand.ExecuteReader();
+    //     while(sdr.Read()){
+    //         ViewBag.name2=Convert.ToString(sdr["Name"]);
+    //         ViewBag.id2=Convert.ToString(sdr["EmployeeId"]);
+    //     }
+    //     sdr.Close();
+    //    }
+    //    return View();}
+    //    else return Redirect("Login");
+    // }
+    // [HttpPost]
+    // public IActionResult MotorRegister(Policy policy1)
+    // {   
+    //   _context.Policy.Add(policy1);
+    //   _context.SaveChanges();
+    //   Details details=new Details();
+    //   details.requestPolicyForAll(policy1);
+    //    TempData["Register"]="Policy request sent successfully, You can see the approved policies in Policy page. ";
+    //    TempData["Login"]="";
+    //    return Redirect("AddPolicy");
+    // }
+
+    // string? token1=Request.Cookies["tokenCookie"];
+    //     Console.Write(tokenstring);
+    //   var tokenHandler = new JwtSecurityTokenHandler();
+    //     var key = Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]);
+    //     var validationParameters = new TokenValidationParameters
+    //     {
+    //         ValidateIssuer = true,
+    //         ValidateAudience = true,
+    //         ValidateLifetime = true,
+    //         ValidIssuer = _configuration["Jwt:Issuer"],
+    //         ValidAudience = _configuration["Jwt:Audience"],
+    //         IssuerSigningKey = new SymmetricSecurityKey(key)
+    //     };
+    //     SecurityToken validatedToken;
+    //     var claim = tokenHandler.ValidateToken(token1, validationParameters, out validatedToken);
+
+ // PolicyRequests policy=new PolicyRequests();
+    // policy.EmployeeId=policy1.EmployeeId;
+    // policy.Name=policy1.Name;
+    // policy.PolicyName=policy1.PolicyName;
+    // // policy.PolicyDate=policy1.PolicyDate;
+    // policy.PolicyDuration=policy1.PolicyDuration;
+    // policy.PolicyAmount=policy1.PolicyAmount;
+    // policy.Type=policy1.Type;
+
+   //  public IActionResult AddAdmin()
+   //  {   if((HttpContext.Session.GetString("User1"))!=null)
+   //      return View();
+   //      else return Redirect("Details");
+
+   //  }
+   //  [HttpPost]
+    
+   //  public IActionResult AddAdmin(Login login)
+   //   {  
+   //      if(!ModelState.IsValid)
+   //      {
+   //       return View("AddAdmin");
+   //      }
+   //      else
+   //      {Details details=new Details();
+   //      details.createAdmin(login);
+   //      TempData["AddAdmin"]="Admin Added Successfully";
+   //      return Redirect("Details");
+   //      }
+       
+   //  }
+   
+   //  public IActionResult Details()
+   //  {   
+        
+   //       if((HttpContext.Session.GetString("User1"))!=null)
+   //      {   
+   //          ViewBag.username1=Convert.ToString(HttpContext.Session.GetString("User1"));
+   //      Details details=new Details();
+   //      IEnumerable<ProfileDetail> profiles = details.getEmployee(ViewBag.username1); 
+   //       return View(profiles);
+   //          }
+   //     else{
+   //      return Redirect("Login");
+   //      }
+   //  }
+   //  [HttpPost] 
+   //  public IActionResult Details(string username,int a=1)
+   //  {   
+   //      ViewBag.username1=Convert.ToString(HttpContext.Session.GetString("User1"));
+
+   //      Console.WriteLine(ViewBag.username1);
+   //      Details details=new Details();
+   //      details.getEmployee(username);
+   //       return View();
+   //  }
+   //  public IActionResult InsuranceDetails()
+   //  {   if((HttpContext.Session.GetString("User2"))!=null)
+   //      {
+   //          ViewBag.username2=Convert.ToString(HttpContext.Session.GetString("User2"));
+   //      Details details=new Details();
+   //      // ProfileView username=new ProfileView();
+   //     IEnumerable<ProfileDetail> profiles = details.getEmployee(ViewBag.username2); 
+   //     foreach(var user in profiles)
+   //     {
+   //      if(user.EmployeeId!=null)
+   //      HttpContext.Session.SetString("empid",user.EmployeeId);
+   //     }
+   //       return View(profiles);
+   //          }
+   //     else{
+   //      return Redirect("Login");
+   //      }
+   //  }
+   //  [HttpPost]
+   //  public IActionResult InsuranceDetails(string username)
+   //  {   
+   //      ViewBag.username2=Convert.ToString(HttpContext.Session.GetString("User2"));
+   //      Console.WriteLine(ViewBag.username1);
+   //      Details details=new Details();
+   //      details.getEmployee(username);
+   //      return View();
+   //  }
+
+   // public async Task<ActionResult> PolicyAccept(string id,string name,string type,string policyname,DateTime date,decimal amount,int duration)
+   //  { 
+   //      decimal dueamount=amount/(2*duration);
+   //      DateTime duestartdatedt=date;
+   //      string? duestartdate=duestartdatedt.ToString("dd-MM-yyyy");
+   //      DateTime dueenddatedt=date.AddMonths(1);
+   //      string? dueenddate=dueenddatedt.ToString("dd-MM-yyyy");
+   //     using(SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;"))
+   //     {
+   //      connection.Open();
+   //      SqlCommand insertcommand1=new SqlCommand($"insert into Dues values('{id}','{name}','{policyname}','{date}','{dueamount}','{duestartdate}','{dueenddate}','UnPaid') ",connection);
+   //      insertcommand1.ExecuteNonQuery();
+   //      }
+   //     PolicyRequestsTable policyRequestsTable = new PolicyRequestsTable();
+
+   //      var Task1 = Task.Run(() => addRequestPolicy(id,date));
+   //      var Task2 = Task.Run(() => policyRequestsTable.acceptPolicyRequests(id,date));
+   //      await Task.WhenAll(Task1,Task2);
+   //      //  _context.SaveChanges();
+   //      return RedirectToAction("PolicyRequests");
+   //  }
+
+   //  public IActionResult ImportFromExcel()
+//     {
+//         return View();
+//     }
+// [HttpPost]
+//     public IActionResult ImportFromExcel(IFormFile file)
+//     {  
+//        Details details=new Details();
+//        details.importExcel(file); 
+//         TempData["CreateEmployee"]="Employees Added Successfully";
+//         return Redirect("Details");
+//     }
+
+//   public void removeEvenFromLoginDetails(string user)
+//   {
+//    using(SqlConnection connection=new SqlConnection("Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;"))
+//        {
+//             connection.Open();
+//             SqlCommand command2=new SqlCommand($"delete from NewAdmin where Username='{user}'",connection);
+//             command2.ExecuteNonQuery();
+//             SqlCommand command3=new SqlCommand($"delete from LoginData where Username='{user}'",connection);
+//             command3.ExecuteNonQuery();
+//        }
+//   }
+
+
+// public void createAdmin(LoginDetails admin)
+//    {   
+//     string? username=admin.Username;
+//     string? password=admin.Password;
+//         try{
+//           connection.Open();
+//           SqlCommand command1=new SqlCommand($"insert into NewAdmin values('{username}','{password}')",connection);
+//           command1.ExecuteNonQuery();
+//           SqlCommand command2=new SqlCommand($"insert into ProfileDetails values('Unavailable','Nil',0,'Nil','Nil','{username}','https://i.pinimg.com/originals/df/5f/5b/df5f5b1b174a2b4b6026cc6c8f9395c1.jpg','000000')",connection);
+//           command2.ExecuteNonQuery();
+//           Console.WriteLine("inserted successfully");
+//         }
+//         catch(SqlException sqlexception)
+//         {
+//             Console.WriteLine(sqlexception);
+//         }
+        
+//         connection.Close();
+//     }
+    
+      //       public void addDuesFromPolicyAccept(string? id, string? name, string? type, string? policyname, DateTime date, decimal amount, int duration)
+      //   {
+      //       Console.WriteLine(date);
+      //       decimal dueamount = amount / (2 * 10 * duration);
+      //       DateTime duestartdatedt = date;
+      //       string? duestartdate = duestartdatedt.ToString("dd-MM-yyyy");
+      //       DateTime dueenddatedt = date.AddMonths(1);
+      //       string? dueenddate = dueenddatedt.ToString("dd-MM-yyyy");
+      //       using (SqlConnection connection = new SqlConnection(details.ConnectionString))
+      //       {
+
+      //           connection.Open();
+      //           SqlCommand insertcommand1 = new SqlCommand($"insert into Dues values('{id}','{name}','{policyname}','{date}','{dueamount}','{duestartdate}','{dueenddate}','UnPaid') ", connection);
+      //           insertcommand1.ExecuteNonQuery();
+      //       }
+      //   }
+
+   //    public void addRequestPolicy(string id, DateTime date)
+   //  {
+   //      List<Policy> policy = _context.Policy.Where(record => record.EmployeeId == id && record.PolicyDate.ToString("yyyy-MM-dd HH:mm:ss") == date.ToString("yyyy-MM-dd HH:mm:ss")).ToList();
+   //      foreach (var item in policy)
+   //      {
+   //          if (policy.Count != 0)
+   //          {
+   //              item.Status = "Accepted";
+   //              _context.Update(item);
+   //              _context.SaveChanges();
+
+   //          }
+   //      }
+
+   //  }
+// PolicyRequests policy = new PolicyRequests();
+        // policy.EmployeeId = policy2.EmployeeId;
+        // policy.Name = policy2.Name;
+        // policy.PolicyName = policy2.PolicyName;
+        // policy.PolicyDate = policy2.PolicyDate;
+        // policy.PolicyDuration = policy2.PolicyDuration;
+        // policy.PolicyAmount = policy2.PolicyAmount;
+        // policy.Type = policy2.Type;
+        // policy.Status = "Requested";
+        // _context.PolicyRequests.Add(policy);
+        // _context.SaveChanges();
+
+
+        //TempData["Login"] = "";
+
+      //   string? date1 = "01/01/11";
+      //           date1 = DateTime.Parse("02/01/11").ToString("hh:mm tt");
+
+      //           DateTime date = Convert.ToDateTime(date1);
+
+
+    
+// <div >
+// <h2 style="background-color:">Login To Continue</h2></div><br><br>
+
+// <div class="col-3" > 
+//  <div class="card"  >
+   
+//  <div class="card-body text-center" style="background-color: rgb(245, 214, 242);">
+//     <form method="post" style="background-color: rgb(245, 214, 242);"> 
+//         <div> <label class="form-label">User name</label>
+//         <input asp-for=Username type="text" class="form-control" placeholder="Email ID"/>
+//         @Html.ValidationMessageFor((data => data.Username),"",new{@class ="text-danger"})
+//         </div>
+//         <div> <label class="form-label">Password</label>
+//         <input asp-for=Password type="password" class="form-control" placeholder="Password" minlength="8" maxlength="50"/>
+//         @Html.ValidationMessageFor((data => data.Password),"",new{@class ="text-danger"})
+//         </div> <br>
+//         <div class="bar">
+//         <button class="btn btn-primary"> Submit </button>
+//         <a class="btn btn-outline-primary" href="/" role="button"> Cancel</a>
+//         </div>
+//     </form>
+//  </div>  
+ 
+// </div> 
+// </div>
+// </body> 
+
+
+
+// public void requestPolicyForAll(Policy policy)
+//         {
+
+//             SqlConnection connection = new SqlConnection();
+//             connection.ConnectionString = getConnectionString();
+//             using (connection)
+//             {
+//                 connection.Open();
+//                 SqlCommand insertcommand2 = new SqlCommand($"insert into PolicyRequests values('{policy.EmployeeId}','{policy.Name}','{policy.Type}','{policy.PolicyName}','{policy.PolicyDate}','{policy.PolicyAmount}','{policy.PolicyDuration}','Requested')", connection);
+//                 insertcommand2.ExecuteNonQuery();
+//             }
+
+//         }
+
+// GlobalSection(SolutionConfigurationPlatforms) = preSolution
+// 		Debug|Any CPU = Debug|Any CPU
+// 		Release|Any CPU = Release|Any CPU
+// 	EndGlobalSection
+
+//Server=localhost\SQLEXPRESS01;Database=master;Trusted_Connection=True;
+
+//Server=localhost\\SQLEXPRESS;Database=IMS;Trusted_Connection=True;TrustServerCertificate=True;
+
+// var builder=WebApplication.CreateBuilder();
+// string path=builder.Configuration.GetValue<string>("LogPath");
+//string? path="wwwroot\\LogFiles\\Logs.txt";
+
+// SqlCommand insertcommand2 = new SqlCommand($"update Policy set Status='Claim requested' where EmployeeId='{claim.EmployeeId}' and  FORMAT(PolicyDate, 'dd-MM-yyyy HH:mm:ss')=FORMAT('{claim.PolicyDate}', 'dd-MM-yyyy HH:mm:ss')", connection);
+                // insertcommand2.ExecuteNonQuery();
+                // SqlCommand insertcommand1 = new SqlCommand($"update PolicyRequests set Status='Claim requested' where EmployeeId='{claim.EmployeeId}' and  FORMAT(PolicyDate, 'dd-MM-yyyy HH:mm:ss')=FORMAT('{claim.PolicyDate}', 'dd-MM-yyyy HH:mm:ss')", connection);
+                // insertcommand1.ExecuteNonQuery();
+                // SqlCommand insertcommand3 = new SqlCommand($"update Dues set Status='Claim requested' where EmployeeId='{claim.EmployeeId}' and  FORMAT(PolicyDate, 'dd-MM-yyyy HH:mm:ss')=FORMAT('{claim.PolicyDate}', 'dd-MM-yyyy HH:mm:ss')", connection);
+                // insertcommand3.ExecuteNonQuery();
+
+
+// SqlCommand deletecommand2 = new SqlCommand("DeletePolicyRequests", connection);
+                    // deletecommand2.CommandType = CommandType.StoredProcedure;
+                    // deletecommand2.Parameters.AddWithValue("@EmployeeId", empid);
+                    // deletecommand2.Parameters.AddWithValue("@Date", time);
+                    // deletecommand2.ExecuteNonQuery();
+
+                  //   deletecommand1.ExecuteNonQuery();
+
+                  //   SqlCommand deletecommand2 = new SqlCommand($"delete from NewAdmin  WHERE UserName='{user}'", connection);
+                  //   deletecommand2.ExecuteNonQuery();
+
+                  //   SqlCommand deletecommand3 = new SqlCommand($"delete from ProfileDetails where UserName='{user}'", connection);
+                    
+                    // string body= "<p>Dear Aspirian,<br>Greetings<br><br>Your Policy request has been accepted. You can see the details in our website.<br><a href=\"http://localhost:5150\" >http://localhost:5150</a><br><br>Regards,<br>IMS</p>";
+            // details.SendMail(HttpContext.Session.GetString("User1"),User,"Accepting Policy request!",body);
+       //admin.AcceptPolicyRequests(id, name, type, policyname, date, amount, duration);
+      
+      // string body="<p>Dear Aspirian,<br>Greetings<br><br>Your Policy request has been Denied.Please contact Admin for more details.<br><a href=\"mailto:neela.dhanalakshmi1810@gmail.com\">Contact Admin</a><br><br>Regards,<br>IMS</p>";
+            // details.SendMail(HttpContext.Session.GetString("User1"),user,"Policy request Denied!",body);
+       
+      //   phone=admin.GetUserName(id);
+      //   if(!string.IsNullOrEmpty(phone)){
+
+
+//            "Vonage" :
+//   {
+//     "Key":"d91abfda",
+//     "Value" : "hfsNbW7gEegwq3iz",
+//     "From": "Vonage APIs",
+//     "To" : "919791878870"
+//   },
+            
+            
+            

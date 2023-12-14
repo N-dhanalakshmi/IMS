@@ -1,0 +1,120 @@
+OnActionExecuting -Controller:Home, Action:Index, Time :
+
+OnActionExecuted -Controller:Home, Action:Index, Time :19
+
+OnResultExecuting -Controller:Home, Action:Index, Time :19
+
+OnResultExecuted -Controller:Home, Action:Index, Time :19
+
+OnActionExecuting -Controller:Home, Action:Login, Time :19
+
+OnActionExecuted -Controller:Home, Action:Login, Time :0
+
+OnResultExecuting -Controller:Home, Action:Login, Time :0
+
+OnResultExecuted -Controller:Home, Action:Login, Time :0
+
+OnActionExecuting -Controller:Home, Action:Login, Time :0
+
+OnActionExecuted -Controller:Home, Action:Login, Time :16415
+
+OnResultExecuting -Controller:Home, Action:Login, Time :16415
+
+OnResultExecuted -Controller:Home, Action:Login, Time :16415
+
+OnActionExecuting -Controller:Home, Action:Details, Time :16415
+
+OnActionExecuted -Controller:Home, Action:Details, Time :1467
+
+OnResultExecuting -Controller:Home, Action:Details, Time :1467
+
+OnResultExecuted -Controller:Home, Action:Details, Time :1467
+
+OnActionExecuting -Controller:Admin, Action:ViewClaimRequests, Time :
+
+OnActionExecuted -Controller:Admin, Action:ViewClaimRequests, Time :437
+
+OnResultExecuting -Controller:Admin, Action:ViewClaimRequests, Time :437
+
+OnResultExecuted -Controller:Admin, Action:ViewClaimRequests, Time :437
+
+OnActionExecuting -Controller:Home, Action:Details, Time :1467
+
+IMS.Controllers.InvalidLoginException: Invalid Entry
+   at IMS.Controllers.HomeController.Details() in C:\Users\M.S.Kamesh\Documents\IMS\Controllers\HomeController.cs:line 136
+OnActionExecuted -Controller:Home, Action:Details, Time :456
+
+OnResultExecuting -Controller:Home, Action:Details, Time :456
+
+OnResultExecuted -Controller:Home, Action:Details, Time :456
+
+OnActionExecuting -Controller:Admin, Action:PolicyRequests, Time :437
+
+OnActionExecuted -Controller:Admin, Action:PolicyRequests, Time :885
+
+OnResultExecuting -Controller:Admin, Action:PolicyRequests, Time :885
+
+OnResultExecuted -Controller:Admin, Action:PolicyRequests, Time :885
+
+OnActionExecuting -Controller:Home, Action:Details, Time :456
+
+IMS.Controllers.InvalidLoginException: Invalid Entry
+   at IMS.Controllers.HomeController.Details() in C:\Users\M.S.Kamesh\Documents\IMS\Controllers\HomeController.cs:line 136
+OnActionExecuted -Controller:Home, Action:Details, Time :35
+
+OnResultExecuting -Controller:Home, Action:Details, Time :35
+
+OnResultExecuted -Controller:Home, Action:Details, Time :35
+
+OnActionExecuting -Controller:Admin, Action:DuesAll, Time :885
+
+OnActionExecuted -Controller:Admin, Action:DuesAll, Time :15310
+
+OnResultExecuting -Controller:Admin, Action:DuesAll, Time :15310
+
+OnResultExecuted -Controller:Admin, Action:DuesAll, Time :15310
+
+OnActionExecuting -Controller:Home, Action:Details, Time :35
+
+IMS.Controllers.InvalidLoginException: Invalid Entry
+   at IMS.Controllers.HomeController.Details() in C:\Users\M.S.Kamesh\Documents\IMS\Controllers\HomeController.cs:line 136
+OnActionExecuted -Controller:Home, Action:Details, Time :49
+
+OnResultExecuting -Controller:Home, Action:Details, Time :49
+
+OnResultExecuted -Controller:Home, Action:Details, Time :49
+
+OnActionExecuting -Controller:Admin, Action:Requests, Time :15310
+
+OnActionExecuted -Controller:Admin, Action:Requests, Time :192
+
+OnResultExecuting -Controller:Admin, Action:Requests, Time :192
+
+OnResultExecuted -Controller:Admin, Action:Requests, Time :192
+
+OnActionExecuting -Controller:Home, Action:Details, Time :49
+
+IMS.Controllers.InvalidLoginException: Invalid Entry
+   at IMS.Controllers.HomeController.Details() in C:\Users\M.S.Kamesh\Documents\IMS\Controllers\HomeController.cs:line 136
+OnActionExecuted -Controller:Home, Action:Details, Time :5
+
+OnResultExecuting -Controller:Home, Action:Details, Time :5
+
+OnResultExecuted -Controller:Home, Action:Details, Time :5
+
+OnActionExecuting -Controller:Home, Action:Logout, Time :5
+
+OnActionExecuted -Controller:Home, Action:Logout, Time :5
+
+OnResultExecuting -Controller:Home, Action:Logout, Time :5
+
+OnResultExecuted -Controller:Home, Action:Logout, Time :5
+
+OnActionExecuting -Controller:Home, Action:Login, Time :5
+
+OnActionExecuted -Controller:Home, Action:Login, Time :0
+
+OnResultExecuting -Controller:Home, Action:Login, Time :0
+
+OnResultExecuted -Controller:Home, Action:Login, Time :0
+

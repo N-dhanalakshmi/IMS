@@ -1,0 +1,121 @@
+@* @using Microsoft.AspNetCore.Mvc;
+@using PagedList;
+@using PagedList.Mvc;
+@using X.PagedList.Mvc.Core;
+@using System.Web.Mvc;
+@model PagedList.IPagedList<ClaimNow>; *@
+  @model IEnumerable<ClaimNow>;
+@{
+  ViewData["Title"] = "Claim Requests";
+}
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-color: rgb(248, 235, 248);">
+  <div>
+    <p><a class="btn btn-color" href="/Home/Details">Back</a><input id='myInput' class="searchitem"
+        onkeyup='searchSname()' type='text' style="float: right;" placeholder=" Search here">
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;text-align:center;">New Requests
+    </h2>
+    </p>
+  </div>
+  <br>
+  <table class="table-design" width=100% style="text-align: center;" id='myTable'>
+    <thead class="thead-dark">
+      <tr height=40px>
+        <th scope="col">Details:</th>
+        <th scope="col">Reason</th>
+        <th scope="col">Proof Documents</th>
+    </thead>
+    <tbody class="tbody-light">
+
+      @foreach (var item in Model)
+      {
+        <tr height=50px>
+          <td>@item.EmployeeId @item.Name<br>
+            Name : @item.PolicyName<br>
+            Applied on: @item.PolicyDate Amount : @item.PolicyAmount<br></td>
+          <td>@item.Reason</td>
+          @{
+            string pdf1Base64Data = Convert.ToBase64String((byte[])@item.MedicalProof);
+            string pdf1DataURL = string.Format("data:application/pdf;base64,{0}", pdf1Base64Data);
+            string pdf2Base64Data = Convert.ToBase64String((byte[])@item.Receipt);
+            string pdf2DataURL = string.Format("data:application/pdf;base64,{0}", pdf2Base64Data);
+            <td> 
+              <embed type="text/pdf" src=@pdf1DataURL width="250px" height="80px"><br>
+              <a href=@pdf1DataURL download=@item.EmployeeId"MedicalProof">MedicalProof</a><br>
+              <embed type="text/pdf" src=@pdf2DataURL width="250px" height="80px"><br>
+              <a href=@pdf2DataURL download=@item.EmployeeId"Bill">BillReceipt</a>
+            </td>
+          }
+        </tr>
+      }
+    </tbody>
+  </table>
+@* Page 
+@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+ of 
+ @Model.PageCount   
+ @X.PagedList.Mvc.Core.HtmlHelper.PagedListPager(Html,Model,page => Url.Action("ViewClaimRequests","Admin", new { page })) *@
+       
+
+<style>
+    .thead-dark {
+      background-color: rgba(129, 10, 109, 0.8);
+      color: white;
+    }
+
+    .tbody-light {
+      text-align: center;
+      color: white;
+      background-color: rgba(129, 10, 109, 0.3);
+    }
+
+    @*tr:hover{opacity:0.5;}*@a:link {
+    @*text-decoration:none;*@color: white;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .btn-color {
+      color: white;
+      background-color: purple;
+    }
+
+    .searchitem {
+      border-color: purple;
+      background-color: rgb(238, 238, 233);
+      border-radius: 5px;
+      ;
+    }
+  </style>
+  <script>
+    function searchSname() {
+      var input, filter, found, table, tr, td, i, j;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+          if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            found = true;
+          }
+        }
+        if (found) {
+          tr[i].style.display = "";
+          found = false;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>

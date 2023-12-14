@@ -1,0 +1,86 @@
+@model IEnumerable<Policy>;
+@{
+    ViewData["Title"] = "Policy Details";
+}
+
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="background-color: rgb(248, 235, 248);" >
+  <script>
+  var message ='@TempData["Claim"]';
+  if(message!='')
+  alert(message);
+</script>
+<div class="text-center"> 
+    <p><a class="btn btn-color" href="/Home/InsuranceDetails" style="float: left;">Back</a> <h2 style="color:rgba(129, 10, 109, 0.863) ;" >Your Policies
+</p></h2><br>
+</div>
+<table class="table-design" width=100% style="text-align: center;" id='myTable' >
+  <thead class="thead-dark">
+    <tr height=50px >
+      <th scope="col" width=200px>Name</th>
+      <th scope="col" width=200px>Policy Type</th>
+      <th scope="col" width=200px >Date of Birth</th>
+      <th scope="col" width=200px>Policy Name</th>
+      <th scope="col" width=150px>Policy Amount</th>
+      <th scope="col" width=150px>Policy Duration</th>
+     <th scope="col" width=200px>Applied on</th>
+     <th scope="col" width=150px>Status</th>
+    </tr>
+  </thead>
+  <tbody class="tbody-light">
+  @{
+    
+    foreach (var item in Model)
+  { 
+    
+    <tr height=35px>
+      <td >@item.Name</td>
+      <td>@item.Type</td>
+      <td>@item.DateofBirth</td>
+       <td>@item.PolicyName</td>
+       <td>@item.PolicyAmount</td>
+       <td>@item.PolicyDuration</td>
+       <td>@item.PolicyDate</td>
+       @{
+
+        if(@item.PolicyDate.AddHours(1) > @ViewBag.timenow)
+        
+          {
+           <td > @Html.ActionLink("Remove","PolicyRequestRemove","Employee",new {empid=@item.EmployeeId,date=@item.PolicyDate},new {@class="btn btn-color"}) </td>
+            }
+        else
+       {
+        <td>@item.Status</td>
+        }
+       
+       }
+  
+    </tr>
+    }}
+  </tbody>
+</table>
+<style>
+.thead-dark{    
+background-color: rgba(129, 10, 109, 0.8);
+color: white;}
+.tbody-light{
+text-align:center;
+color:white;
+background-color: rgba(129, 10, 109, 0.3);}
+tr:hover{ opacity: 0.5 ;}
+a:link{
+text-decoration:none;
+color:white;}
+a:hover
+{
+color:red;}
+.btn-color{
+  color: white;
+  background-color: purple;
+}
+</style>
+
+</body>
+</html>

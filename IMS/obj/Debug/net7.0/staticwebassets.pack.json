@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IMS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IMS.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\03b2d767-0266-4069-b244-91751690e5b3.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\03b2d767-0266-4069-b244-91751690e5b3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\0a299807-a0b7-4de3-b2b1-d2701a49a234.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\0a299807-a0b7-4de3-b2b1-d2701a49a234.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\1175b67c-180a-4f05-be15-9a38d59a1449.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\1175b67c-180a-4f05-be15-9a38d59a1449.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\25b78a48-1095-4307-b38f-9140625eb97c.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\25b78a48-1095-4307-b38f-9140625eb97c.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\293647a5-f2b0-430f-958e-40e4272ea631.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\293647a5-f2b0-430f-958e-40e4272ea631.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\3381a808-df08-4ef7-87d4-9431bb82b542.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3381a808-df08-4ef7-87d4-9431bb82b542.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\3a8a34bd-0684-44eb-afd5-922227ff865b.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3a8a34bd-0684-44eb-afd5-922227ff865b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\3c316691-34c6-4e09-b5a1-946d8111b42d.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3c316691-34c6-4e09-b5a1-946d8111b42d.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\3e4b807b-0116-4724-9919-c13d0a0db915.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3e4b807b-0116-4724-9919-c13d0a0db915.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\4d0cacd8-7383-4415-a003-b5329b835417.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\4d0cacd8-7383-4415-a003-b5329b835417.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\55e5b40c-b15d-49cf-8855-e17fdec0671e.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\55e5b40c-b15d-49cf-8855-e17fdec0671e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\57ba54ad-5396-4856-8478-84bc75e2e7e8.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\57ba54ad-5396-4856-8478-84bc75e2e7e8.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\5c6f878c-b710-45d0-a024-371738b5e750.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\5c6f878c-b710-45d0-a024-371738b5e750.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\676abdfe-bf18-42c5-88b8-cefb0110f7b1.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\676abdfe-bf18-42c5-88b8-cefb0110f7b1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\6b657d3f-a67e-4453-90d6-d3847fb70b4e.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\6b657d3f-a67e-4453-90d6-d3847fb70b4e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\75030858-3e89-4a9e-9198-5ab72c12ed6b.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\75030858-3e89-4a9e-9198-5ab72c12ed6b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\7519d243-a2db-4a2c-8d3e-62ff68c4b57a.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\7519d243-a2db-4a2c-8d3e-62ff68c4b57a.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\7cc2d4ce-d6f2-4477-98e3-a457ef1629c7.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\7cc2d4ce-d6f2-4477-98e3-a457ef1629c7.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\87caa687-ed54-473b-a500-679413cf69e8.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\87caa687-ed54-473b-a500-679413cf69e8.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\8e9ca2a1-a1b2-4e39-a5c3-38585b16dc6a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\8e9ca2a1-a1b2-4e39-a5c3-38585b16dc6a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\8f667f3a-525f-49ae-8a66-d4244f98daa3.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\8f667f3a-525f-49ae-8a66-d4244f98daa3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\999dfe58-8a64-4562-8c88-d00560fe08ed.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\999dfe58-8a64-4562-8c88-d00560fe08ed.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\9a54b882-9861-49f1-b883-743c222d9474.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\9a54b882-9861-49f1-b883-743c222d9474.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\a559e6d3-e83f-48bf-819c-b02a3cfdd799.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\a559e6d3-e83f-48bf-819c-b02a3cfdd799.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\a64dc39e-7795-4f8b-8317-6deb4809ce33.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\a64dc39e-7795-4f8b-8317-6deb4809ce33.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\a6b9cbe0-03dd-42f9-9c83-6cc8a6f84f41.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\a6b9cbe0-03dd-42f9-9c83-6cc8a6f84f41.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\ae78ed3a-d558-4ac6-b79f-c7293b8bd18f.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\ae78ed3a-d558-4ac6-b79f-c7293b8bd18f.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\aebf6604-abd4-42d8-a8d6-3338ee10df29.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\aebf6604-abd4-42d8-a8d6-3338ee10df29.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\afb5c38c-d2dd-47aa-918d-86bd851bf863.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\afb5c38c-d2dd-47aa-918d-86bd851bf863.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\b3f8ffcb-c45e-45b3-a031-21c3f09ee5f8.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\b3f8ffcb-c45e-45b3-a031-21c3f09ee5f8.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\b616a0eb-dedb-4829-bef9-6e753fcde0ef.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\b616a0eb-dedb-4829-bef9-6e753fcde0ef.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\b8767a98-ccde-4462-b344-558474526358.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\b8767a98-ccde-4462-b344-558474526358.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\c4369098-7103-453f-888d-447ec9df5040.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\c4369098-7103-453f-888d-447ec9df5040.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\cac0f2e6-fa73-4c1f-af52-93137aa0aa1f.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\cac0f2e6-fa73-4c1f-af52-93137aa0aa1f.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\d797f934-3016-47c8-8f40-788dcfc12018.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\d797f934-3016-47c8-8f40-788dcfc12018.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\db6fe834-8beb-455e-b8c7-bf1cb098a822.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\db6fe834-8beb-455e-b8c7-bf1cb098a822.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\db842db4-2b0b-4114-842d-9dc251c5ed2d.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\db842db4-2b0b-4114-842d-9dc251c5ed2d.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\dc975045-dda9-4c55-9eb0-7d42aa1a6ae5.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\dc975045-dda9-4c55-9eb0-7d42aa1a6ae5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\dcc076bf-8d61-4739-bdb4-7e2af663a952.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\dcc076bf-8d61-4739-bdb4-7e2af663a952.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\debdf642-0c9f-4d5d-9604-7856f7052afc.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\debdf642-0c9f-4d5d-9604-7856f7052afc.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\df76d186-3835-4478-900c-d455b622afd9.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\df76d186-3835-4478-900c-d455b622afd9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\dfc39f40-c2ca-40f8-a215-36e1950f570f.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\dfc39f40-c2ca-40f8-a215-36e1950f570f.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\ea7c92d9-4092-42e3-8348-be918b3f0f17.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\ea7c92d9-4092-42e3-8348-be918b3f0f17.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\eface880-66d0-4cdf-879b-ff766f983f2a.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\eface880-66d0-4cdf-879b-ff766f983f2a.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\f2a7dbf1-eca3-44b4-9e24-cc0d39a575e9.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\f2a7dbf1-eca3-44b4-9e24-cc0d39a575e9.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\f4dd9b35-8b9d-4d83-9960-bfd9674a0270.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\f4dd9b35-8b9d-4d83-9960-bfd9674a0270.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\f68711f8-baf9-40fe-a9aa-9b2fbc7355c7.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\f68711f8-baf9-40fe-a9aa-9b2fbc7355c7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\f73e13a7-5a39-4737-bedc-a370a43efd37.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\f73e13a7-5a39-4737-bedc-a370a43efd37.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\f9549303-0eda-476c-b4c5-f98fc266c8df.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\f9549303-0eda-476c-b4c5-f98fc266c8df.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\Images\\ProfileImages\\faf5e722-ca08-4eb3-8f90-5205cc851758.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\faf5e722-ca08-4eb3-8f90-5205cc851758.jfif"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\dhana.neelakandan\\Desktop\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IMS.props",
+      "PackagePath": "build\\IMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IMS.props",
+      "PackagePath": "buildMultiTargeting\\IMS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IMS.props",
+      "PackagePath": "buildTransitive\\IMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

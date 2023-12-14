@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\obj\\MCD\\Debug\\net7.0\\scopedcss\\projectbundle\\IMS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IMS.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\03b2d767-0266-4069-b244-91751690e5b3.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\03b2d767-0266-4069-b244-91751690e5b3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\0a299807-a0b7-4de3-b2b1-d2701a49a234.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\0a299807-a0b7-4de3-b2b1-d2701a49a234.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\3a8a34bd-0684-44eb-afd5-922227ff865b.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3a8a34bd-0684-44eb-afd5-922227ff865b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\3c316691-34c6-4e09-b5a1-946d8111b42d.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3c316691-34c6-4e09-b5a1-946d8111b42d.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\3e4b807b-0116-4724-9919-c13d0a0db915.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\3e4b807b-0116-4724-9919-c13d0a0db915.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\4d0cacd8-7383-4415-a003-b5329b835417.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\4d0cacd8-7383-4415-a003-b5329b835417.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\5c6f878c-b710-45d0-a024-371738b5e750.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\5c6f878c-b710-45d0-a024-371738b5e750.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\6b657d3f-a67e-4453-90d6-d3847fb70b4e.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\6b657d3f-a67e-4453-90d6-d3847fb70b4e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\7cc2d4ce-d6f2-4477-98e3-a457ef1629c7.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\7cc2d4ce-d6f2-4477-98e3-a457ef1629c7.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\8e9ca2a1-a1b2-4e39-a5c3-38585b16dc6a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\8e9ca2a1-a1b2-4e39-a5c3-38585b16dc6a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\Images\\ProfileImages\\8f667f3a-525f-49ae-8a66-d4244f98daa3.jfif",
+      "PackagePath": "staticwebassets\\Images\\ProfileImages\\8f667f3a-525f-49ae-8a66-d4244f98daa3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\M.S.Kamesh\\Documents\\IMS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\MCD\\Debug\\net7.0\\staticwebassets\\msbuild.IMS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\MCD\\Debug\\net7.0\\staticwebassets\\msbuild.build.IMS.props",
+      "PackagePath": "build\\IMS.props"
+    },
+    {
+      "Id": "obj\\MCD\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IMS.props",
+      "PackagePath": "buildMultiTargeting\\IMS.props"
+    },
+    {
+      "Id": "obj\\MCD\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IMS.props",
+      "PackagePath": "buildTransitive\\IMS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

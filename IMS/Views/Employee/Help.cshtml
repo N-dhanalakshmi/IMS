@@ -1,0 +1,81 @@
+@model Help;
+@{
+  ViewData["Title"] = "Help";
+}
+
+<head>
+  <title>Help</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <script>
+    var message = '@TempData["Help"]';
+    if (message != '')
+      alert(message);
+  </script>
+  <div class="text-center">
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;text-align: center;">Registration support</h2>
+    <div id="container" style="width:100%;">
+      <table style="width:100%;">
+        <tr style="height: 100%;">
+          <td style="width:50%;">
+            <div id="left" style=" width:100%;"> <br>
+              <b>
+                <h5 style="text-align: left;margin: 2px;line-height: 25px;line-height: 200%">Steps to apply for new
+                  Insurance Policy</h5>
+              </b>
+
+              <ol style="margin-right: 50px;text-align: left;line-height: 200%">
+                <li>You can edit your profile by clicking <a href="/Home/InsuranceDetails">update profile</a> link in
+                  your profile.</li>
+                <li>For applying new policiy go to <a href="/Employee/AddPolicy"> Add policies</a> page. Read all the
+                  available polcies thoroughly.</li>
+                <li>Choose the right policy which meets all your requirements.</li>
+                <li>Click the link provided to view the registration form.</li>
+                <li>Fill the correct details and submit after proof reading.</li>
+                <li>The process of rgistration will be completed here.</li>
+                <li>You can see the registered policies using the <a href="/Employee/Policy">Policies</a> link provided in
+                  your dashboard.</li>
+                <li>If you need more information and have any queries post your queries in the form given in right.</li>
+              </ol>
+              <div>
+
+                <a style="float: left;" href="/Home/InsuranceDetails" class="btn btn-primary " role="button">Back</a>
+                <h6 style="text-align: 10%;">Thank You</h6>
+
+
+              </div>
+
+            </div>
+          </td>
+          <td style="width:50%;">
+
+            <div id="right" style="float:right; width:100%;"> <b>
+                <h4 style="text-align: center;margin: 2px;line-height: 25px;line-height: 200%">Your queries</h4>
+              </b>
+              <div>
+                <form method="post" class="col-6" style="margin-left: 25%;">
+                  <div class="form-outline mb-4">
+                    <input asp-for=Username type="text" class="form-control" value="@ViewBag.username" hidden />
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label class="form-label">EmployeeId</label>
+                    <input asp-for=EmployeeId type="text" class="form-control" value="@ViewBag.id" />
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label class="form-label">Queries</label>
+                    <textarea asp-for=Request class="form-control" style="height: 150px;padding:0px;" maxlength="200"
+                      placeholder="Type your queries not more than 200 characters"></textarea>
+                  </div>
+                  <br>
+                  <button class="btn btn-primary " type="submit"> Submit </button>
+                </form>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+</body>

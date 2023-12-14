@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IMS
+build_property.RootNamespace = IMS
+build_property.ProjectDir = C:\Users\M.S.Kamesh\Documents\IMS\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\M.S.Kamesh\Documents\IMS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/OldRepository/HealthRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = T2xkUmVwb3NpdG9yeVxIZWFsdGhSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/OldRepository/HomeRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = T2xkUmVwb3NpdG9yeVxIb21lUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/OldRepository/MotorRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = T2xkUmVwb3NpdG9yeVxNb3RvclJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/OldRepository/TravelRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = T2xkUmVwb3NpdG9yeVxUcmF2ZWxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/AddNewAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/DuesAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRHVlc0FsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/EmployeeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/EmployeeRemove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVSZW1vdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/EmployeeUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRW1wbG95ZWVVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/PolicyRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9saWN5UmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/ReplyQueryWithId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVwbHlRdWVyeVdpdGhJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/Requests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Admin/ViewClaimRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld0NsYWltUmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/AddPolicy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkUG9saWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/ClaimAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ2xhaW1BbW91bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/Dues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRHVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/HealthRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSGVhbHRoUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSGVscC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/Policy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUG9saWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Employee/QueryResponse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUXVlcnlSZXNwb25zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/ImportFromExcel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbXBvcnRGcm9tRXhjZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/InsuranceDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN1cmFuY2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Home/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Payment/Capture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDYXB0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Payment/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Payment/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Shared/Exception.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEV4Y2VwdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/M.S.Kamesh/Documents/IMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8d2cqatmf9

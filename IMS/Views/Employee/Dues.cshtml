@@ -1,0 +1,130 @@
+@using System.Data;
+@model DataSet;
+@{
+  ViewData["Title"] = "Dues";
+}
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <div>
+    <script>
+      var message = '@TempData["Dues1"]';
+      if (message != '') {
+        alert(message);
+        message = '';
+      }
+    </script>
+    <p><a class="btn btn-color" href="/Home/InsuranceDetails">Back</a>
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;text-align:center;">Upcoming Dues</h2>
+    </p>
+  </div>
+  <br>
+  <table class="table-design" width=100% style="text-align: center;" id='myTable'>
+    <thead class="thead-dark">
+      <tr height=40px>
+        <th scope="col" width=200px>Name</th>
+        <th scope="col" width=150px>Policy Name</th>
+        <th scope="col" width=150px>Policy Date</th>
+        <th scope="col" width=150px>Premium Amount</th>
+        <th scope="col" width=250px>Due Duration</th>
+        <th scope="col" width=150px>Status</th>
+        <th>Get</th>
+    </thead>
+    @{
+      foreach (DataRow row in Model.Tables[0].Rows)
+      {
+        <tbody class="tbody-light">
+          <tr height=50px>
+            <td>@row["Name"]</td>
+            <td>@row["PolicyName"]</td>
+            <td>@row["PolicyDate"]</td>
+            <td>@row["PremiumAmount"]</td>
+            <td>@row["DueDateFrom"] to @row["DueDateTo"]</td>
+            @{
+              if (Convert.ToString(@row["Status"]) == "UnPaid" || ((@ViewBag.statusset) == "Pay"))
+              {
+
+                @* <td><a asp-controller="Payment" asp-action="Registration" asp-route-id="@row["EmployeeId"]"
+        asp-route-name="@row["Name"]" asp-route-policyname="@row["PolicyName"]" asp-route-date="@row["PolicyDate"]"
+        asp-route-amount="@row["PremiumAmount"]" class="btn btn-color" >Pay</a> *@
+                <td> @Html.ActionLink("Pay","Registration","Payment",new
+          {id=@row["EmployeeId"],name=@row["Name"],policyname=@row["PolicyName"],date=@row["PolicyDate"],amount=@row["PremiumAmount"]},new
+          {@class="btn btn-color"})</td>
+
+              }
+              else if (Convert.ToString(@row["Status"]) == "Claim requested")
+              {
+
+
+                <td>-</td>
+
+              }
+              else
+              {
+                <td>Paid</td>
+              }
+            }
+            @{
+              if (Convert.ToString(@row["Status"]) == "Claim requested")
+              {
+                <td>@row["Status"]</td>
+              }
+
+              else
+              {
+                <td>@Html.ActionLink("Claim","ClaimAmount","Employee",new
+          {empid=@row["EmployeeId"],date=@row["PolicyDate"],name=@row["Name"],policyname=@row["PolicyName"]},new
+          {@class="btn btn-color"})</td>
+              }
+            }
+          </tr>
+        </tbody>
+      }
+    }
+  </table>
+  <style>
+    .thead-dark {
+      background-color: rgba(129, 10, 109, 0.8);
+      color: white;
+    }
+
+    .tbody-light {
+      text-align: center;
+      color: white;
+      background-color: rgba(129, 10, 109, 0.3);
+    }
+
+    tr:hover {
+      opacity: 0.5;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .btn-color {
+      color: white;
+      background-color: purple;
+    }
+
+    .searchitem {
+      border-color: purple;
+      background-color: rgb(238, 238, 233);
+      border-radius: 5px;
+      ;
+    }
+  </style>
+
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+@{
+  ViewData["Title"] = "AddPolicy";
+}
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <script>
+    var message = '@TempData["Register"]';
+    while (message != '') {
+      alert(message)
+      message = '';
+    };
+  </script>
+  <div class="text-center">
+
+    <p> <a class="btn btn-color" href="/Home/InsuranceDetails" style="float:left" role="button"> Back</a>
+      @{
+        if (@TempData["VisitTime"] != null)
+        {
+          <i style="float: right;">Last Visited at : @TempData["VisitTime"]</i>
+        }
+      }
+    </p>
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;">OUR BESTS!</h2>
+  </div><br><br><br><br><br>
+  <div style="padding-left: 0px;"><a class="design" href="#self"
+      style="background-image:url('https://www.hdfcergo.com/images/default-source/health-lob/individual-health-insurance-plus-employer-insurance.jpg?sfvrsn=d5914b06_2');"></a>
+    <a href="#family" class="design"
+      style="background-image:url('https://image.myupchar.com/16312/original/family-health-insurance1.jpg');"></a>
+    <a href="#maternity" class="design"
+      style="background-image:url('https://www.policybazaar.com/images/Health/maternity-health-insurance-plan.jpg');"></a>
+    <a class="design" href="#senior"
+      style="background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScPmkY5KEbZqsjqUkjJBHSA-SUjPPM4Spskg&usqp=CAU');"></a>
+  </div>
+  <style>
+    .design {
+      box-shadow: 0 4px 8px 0 rgba(129, 10, 109, 0.863);
+      border: solid 1px;
+      background-size: 210px 210px;
+      background-repeat: no-repeat;
+      height: 50px;
+      margin: 50px;
+      padding: 80px;
+      border-radius: 25px;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    .btn-color {
+      color: white;
+      background-color: purple;
+    }
+
+    @*h5,p{font-family:'LucidaSans','LucidaSansRegular','LucidaGrande','LucidaSansUnicode',Geneva,Verdana,sans-serif;margin:50px;}*@
+  </style>
+  <br><br><br><br><br>
+  <table>
+    <tbody>
+      <tr>
+        <td style="width: 25%;">
+          <ul>
+            <h5 id="self" style="text-align: left;">Individual Insurance</h5><br>
+            <li>
+              <p>For Individuals below 65 years.</p>
+            </li>
+            <li>
+              <p>Hospital cash benefits.</p>
+            </li>
+            <li>
+              <p>You can avail cashless treatment at a network hospital.</p>
+            </li>
+            <li>
+              <p>accidental death cover.</p>
+            </li>
+            <li>
+              <p>Be aware of premium amount before applying.</p>
+            </li>
+          </ul>
+        </td>
+        <td style="width: 25%;">
+          <ul>
+            <h5 id="family" style="text-align: left;">Family Health Plan</h5>
+            <li>
+              <p>Health insurance takes care of your medical expenses.</p>
+            </li>
+            <li>
+              <p>Can avail cashless treatment at a network hospital.</p>
+            </li>
+            <li>
+              <p>Include medicinal expenses of pre and post hospitalization.</p>
+            </li>
+            <li>
+              <p>enefits include Air ambulance facility and availing Second medical opinion</p>
+            </li>
+          </ul>
+        </td>
+        <td style="width: 25%;">
+          <ul>
+            <h5 id="maternity" style="text-align: left;">Maternity Insurance</h5>
+            <li>
+              <p>For married and below 40 years ols mothers.</p>
+            </li>
+            <li>
+              <p>Provides coverage for medical expenses and new born vaccination.</p>
+            </li>
+            <li>
+              <p>Include Pre and Post hospitalization expenses.</p>
+            </li>
+            <li>
+              <p>covers ambulance charges in case of emergencies.</p>
+            </li>
+
+          </ul>
+        </td>
+        <td style="width: 25%;">
+          <ul>
+            <h5 id="senior" style="text-align: left;">Senior Citizens</h5>
+            <li>
+              <p>For Senior citizens aged between 60 to 75 years.</p>
+            </li>
+            <li>
+              <p>No pre-insurance medical test required.</p>
+            </li>
+            <li>
+              <p>Medical Consultations as an Out Patient.</p>
+            </li>
+            <li>
+              <p>Covers pre-existing diseases.</p>
+            </li>
+            <li>
+              <p>Read Disclaimer given below .</p>
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="row">
+
+    <p><a href="/Employee/HealthRegister">Apply
+        Now!</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="/Home/InsuranceDetails">Back</a>
+    </p>
+  </div>
+  <p><b>Disclaimer : </b>Read the available benefits for respective policies carefully.
+    Pay the premium amount monthly within due. You can remove your request in 1hour.
+    If the action is not done by you, contact the office using
+    <a href="mailto:neela.dhanalakshmi1810@gmail.com" style="font-size: medium;">this link</a>
+    You can see the details of your requests in Policy page and
+    your dues in Dues page.
+    In case of emergencies, you can apply for getting insured amount via Claim link in dues page by submitting
+    required documents.
+  </p>
+
+</body>
+
+</html>

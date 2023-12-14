@@ -1,0 +1,82 @@
+@using System.Data;
+@model DataSet;
+@{
+  ViewData["Title"] = "Responses";
+}
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    background-color: rgb(245, 245, 241);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+
+  .btn-color {
+    color: white;
+    background-color: purple;
+  }
+</style>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <a class="btn btn-color" href="/Home/InsuranceDetails" role="button"> Back</a>
+  <h2 style="color:rgba(129, 10, 109, 0.863);">Received solutions</h2>
+  @foreach (DataRow row in Model.Tables[0].Rows)
+  {
+    if (@row["Reply"] != "")
+    {
+      <div style="width: 50%;">
+        <br>
+        <div class="row">
+          <div class="card">
+            <div class="container">
+              <h4><b>@row["EmployeeId"]</b></h4>
+              <p>Sent on: @row["SentDate"]<b>Query:</b>@row["Request"]</p>
+              <p>Received on: @row["ReplyDate"] Respose:@row["Reply"] </p>
+              <a href="/Employee/Help">Send Another query</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  }
+  <br>
+  <p>No more results found.</p>
+  <hr>
+  <h2 style="color:rgba(129, 10, 109, 0.863);">Queries yet to be answered</h2>
+  @foreach (DataRow row in Model.Tables[0].Rows)
+  {
+    if (@row["Reply"] == "")
+    {
+
+      <div style="width: 50%;">
+        <br>
+        <div class="row">
+          <div class="card">
+            <div class="container">
+              <h4>@row["EmployeeId"] </h4>
+              <p>Sent on:@row["SentDate"] Query: @row["Request"]</p>
+              <a class="btn btn-primary" asp-action="UnsendQueryWithId" asp-controller="Employee"
+                asp-route-id="@row["EmployeeId"]" asp-route-keyid="@row["id"]" role="button"> Unsend</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  }
+  <br>
+  <p>No more results found.</p>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@model IEnumerable<LoginDetails>;
+@{
+  ViewData["Title"] = "Employee List";
+}
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: rgb(248, 235, 248);">
+  <script>
+    var message = '@TempData["EmployeeUpdate"]';
+    while (message != '') {
+      alert(message)
+      message = '';
+    };
+  </script>
+  <script>
+    var message = '@TempData["EmployeeRemove"]';
+    while (message != '') {
+      alert(message)
+      message = '';
+    };
+  </script>
+  <div>
+    <p><a class="btn btn-color" href="/Home/Details">Back</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=/Home/GeneratePDF
+        style="color:rgb(99, 99, 236);font-size: 20px;">Download as Pdf</a> / <a href=/Home/GenerateExcel
+        style="color:rgb(99, 99, 236);font-size: 20px;">Excel</a> <input id='myInput' class="searchitem"
+        onkeyup='searchSname()' type='text' style="float: right;" placeholder=" Search here">
+    <h2 style="color:rgba(129, 10, 109, 0.863) ;text-align:center;">Employees List
+    </h2>
+    </p>
+  </div>
+  <br>
+  <table class="table-design" width=100% style="text-align: center;" id='myTable'>
+    <thead class="thead-dark">
+      <tr height=40px>
+        <th scope="col">Employee Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Username</th>
+        <th></th>
+        <th></th>
+    </thead>
+    @foreach (var item in Model)
+    {
+      <tbody class="tbody-light">
+        <tr height=50px>
+          <td>@item.EmployeeId</td>
+          <td>@item.Name</td>
+          <td>@item.Username</td>
+          <td><a class="btn btn-color" asp-action="EmployeeUpdate" asp-controller="Admin"
+              asp-route-userid="@item.Username">Update</a></td>
+          <td><a class="btn btn-danger" asp-action="EmployeeRemove" asp-controller="Admin"
+              asp-route-userid="@item.Username" asp-route-empid="@item.EmployeeId">Remove</a></td>
+        </tr>
+      </tbody>
+    }
+  </table>
+  <style>
+    .thead-dark {
+      background-color: rgba(129, 10, 109, 0.8);
+      color: white;
+    }
+
+    .tbody-light {
+      text-align: center;
+      color: white;
+      background-color: rgba(129, 10, 109, 0.3);
+    }
+
+    tr:hover {
+      opacity: 0.5;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    .btn-color {
+      color: white;
+      background-color: purple;
+    }
+
+    .searchitem {
+      border-color: purple;
+      background-color: rgb(238, 238, 233);
+      border-radius: 5px;
+      ;
+    }
+  </style>
+  <script>
+    function searchSname() {
+      var input, filter, found, table, tr, td, i, j;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+          if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            found = true;
+          }
+        }
+        if (found) {
+          tr[i].style.display = "";
+          found = false;
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
